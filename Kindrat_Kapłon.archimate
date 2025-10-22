@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Kapłon_Kindrat" id="id-ba4f1227b7cd4a9da9eb5032db202979" version="5.0.0">
+  <folder name="Strategy" id="id-1dcc6019be5546899d44ac571a754ae7" type="strategy"/>
+  <folder name="Business" id="id-8e5406c4bf4c4937852590f87a717052" type="business"/>
+  <folder name="Application" id="id-eb90da7da3584bc78e935f034013609b" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-c76ec5b88ab445e7a40eb68b066ffc73" type="technology"/>
+  <folder name="Motivation" id="id-6ffa42a119c449d0af7095fcda9b9eb8" type="motivation">
+    <element xsi:type="archimate:Stakeholder" name="Stakeholder" id="id-c8ce5cc4f72c4a53be8c3d40ce873fcf"/>
+  </folder>
+  <folder name="Implementation &amp; Migration" id="id-bd37f51926c646c3ade01b0db3eccaca" type="implementation_migration"/>
+  <folder name="Other" id="id-a3b9d8e85cfc4e4985b5ec51e582f1e3" type="other"/>
+  <folder name="Relations" id="id-505c5261103d44649fde70008a532c52" type="relations"/>
+  <folder name="Views" id="id-7c9f3f0e62d3427bae511e9d45391007" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-26f45a80d10c4ad18160404d96d015bd">
+      <child xsi:type="archimate:DiagramObject" id="id-aee5bc29f7444ee2bc8d37cf72b9f121" archimateElement="id-c8ce5cc4f72c4a53be8c3d40ce873fcf">
+        <bounds x="213" y="60" width="120" height="55"/>
+      </child>
+    </element>
+  </folder>
+</archimate:model>
