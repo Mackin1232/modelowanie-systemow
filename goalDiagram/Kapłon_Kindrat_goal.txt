@@ -1,0 +1,592 @@
+{
+  "actors": [
+    {
+      "id": "e744338b-1b49-4280-a2a6-ed432f89e65e",
+      "text": "Skrypt do szukania inwestycji",
+      "type": "istar.Actor",
+      "x": 32,
+      "y": 48,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "d60c3956-d4d0-4439-8655-6af009bde912",
+          "text": "Przeszukanie bazy",
+          "type": "istar.Task",
+          "x": 56,
+          "y": 123,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "8532c90b-d6e5-4ce4-85a9-ec5ea992ae34",
+          "text": "Krajowa baza inwestycji",
+          "type": "istar.Resource",
+          "x": 122,
+          "y": 64,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "2fe40145-99fc-4725-8ae7-f3e967ffe3d5",
+          "text": "Sporządzenie listy nowych inwestycji",
+          "type": "istar.Goal",
+          "x": 192,
+          "y": 127,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "4ecd5512-831e-4d69-bcec-a98ad9ba4951",
+      "text": "System",
+      "type": "istar.Actor",
+      "x": 44,
+      "y": 283,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "a19e9e19-e349-4e2b-9336-ff77a3fead1a",
+          "text": "Dodanie szczegółowych informacji",
+          "type": "istar.Task",
+          "x": 68,
+          "y": 426,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "6ae4807b-1f54-4203-989d-7de7a884b0dd",
+          "text": "Dodanie najbliższego oddziału",
+          "type": "istar.Task",
+          "x": 253,
+          "y": 295,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "743330db-f5e1-4f80-92f2-1c0e7e04f2b7",
+          "text": "Dodanie nowych inwestycji",
+          "type": "istar.Task",
+          "x": 111,
+          "y": 294,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "3b52afae-0be6-4219-b3e7-9179e69ba386",
+          "text": "Przygotowanie firmowej listy inwestycji",
+          "type": "istar.Goal",
+          "x": 249,
+          "y": 422,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "5fa1c1f8-6fd5-46b2-bc39-e19ba7f32484",
+      "text": "Przedstawiciel Handlowy",
+      "type": "istar.Actor",
+      "x": 635,
+      "y": 315,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "7a15cd8c-74e2-4bdc-87ef-96861e69344e",
+          "text": "Sprawdzenie przypisanej inwestycji",
+          "type": "istar.Task",
+          "x": 636,
+          "y": 416,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "1d74978f-a135-41fc-94bd-2a60731534a4",
+          "text": "Podjęcie decyzji o opłacalności inwestycji",
+          "type": "istar.Task",
+          "x": 731,
+          "y": 331,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "72f71003-f161-456e-9b15-b46fe31d05c3",
+          "text": "Sporządzenie oferty",
+          "type": "istar.Goal",
+          "x": 815,
+          "y": 418,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "c1554940-66b5-42dd-950f-cc9fd936dbdc",
+      "text": "Klient",
+      "type": "istar.Actor",
+      "x": 714,
+      "y": 557,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "38092550-8374-4bcf-88ed-13d068a860f5",
+          "text": "Rozpatrzenie oferty",
+          "type": "istar.Task",
+          "x": 727,
+          "y": 633,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "66c3d794-7d1a-416d-94df-6f95dab3a9bd",
+          "text": "Zaakceptowanie oferty",
+          "type": "istar.Goal",
+          "x": 853,
+          "y": 629,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "7715c330-e503-4f19-a377-823b013ecfac",
+      "text": "Dyrektor Regionalny",
+      "type": "istar.Actor",
+      "x": 693,
+      "y": 56,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "285091be-ae82-432d-8dae-2b215c1e66da",
+          "text": "Rozpatrzenie inwestycji",
+          "type": "istar.Task",
+          "x": 701,
+          "y": 129,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "476186e2-b123-4e7f-9366-ae359ecb6523",
+          "text": "Zatwierdzenie decyzji",
+          "type": "istar.Goal",
+          "x": 797,
+          "y": 77,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "b6c691ab-39ac-4390-9f8d-4ba8dee4dc4d",
+      "text": "Skrypt do obliczania trasy",
+      "type": "istar.Actor",
+      "x": 361,
+      "y": 39,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "b9fe45ff-44eb-452e-bc42-c4a1567a9ad0",
+          "text": "Obliczenie trasy dla każdego oddziału",
+          "type": "istar.Task",
+          "x": 361,
+          "y": 117,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "8da84630-bae7-4643-8dad-84bb427f386e",
+          "text": "Wybranie oddziału z najkrótszą trasą",
+          "type": "istar.Goal",
+          "x": 517,
+          "y": 120,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "97793f6b-5988-4c58-9b6d-44c67eaefa55",
+          "text": "API Google Maps",
+          "type": "istar.Resource",
+          "x": 448,
+          "y": 60,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "049732b7-e3d4-454c-868c-990bdd3f08d6",
+      "text": "Model LLM",
+      "type": "istar.Actor",
+      "x": 48,
+      "y": 559,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "bb878671-c7f4-4eaa-9d31-c3cf49a32c60",
+          "text": "Sporządzenie raportu o inwestycji",
+          "type": "istar.Goal",
+          "x": 218,
+          "y": 571,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "0e9c09fb-1ba7-437a-9f9a-ed260d9fc7e7",
+          "text": "Zebranie informacji z Internetu",
+          "type": "istar.Task",
+          "x": 68,
+          "y": 629,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "b2500cb3-02d8-4be5-8395-52bfbf9e4eff",
+      "text": "Dodanie szczegółowego raportu o inwestycji",
+      "type": "istar.Task",
+      "x": 122,
+      "y": 501,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "a19e9e19-e349-4e2b-9336-ff77a3fead1a",
+      "target": "0e9c09fb-1ba7-437a-9f9a-ed260d9fc7e7"
+    },
+    {
+      "id": "f041aa9d-36d0-41bf-9a6e-15f19c66cb86",
+      "text": "Wyszukanie nowych inwestycji",
+      "type": "istar.Task",
+      "x": 99,
+      "y": 220,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "d60c3956-d4d0-4439-8655-6af009bde912",
+      "target": "743330db-f5e1-4f80-92f2-1c0e7e04f2b7"
+    },
+    {
+      "id": "1b41a57b-44f4-4a6e-b91f-b0df190a88ba",
+      "text": "Znalezienie najbliższego oddziału",
+      "type": "istar.Task",
+      "x": 327,
+      "y": 212,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "b9fe45ff-44eb-452e-bc42-c4a1567a9ad0",
+      "target": "6ae4807b-1f54-4203-989d-7de7a884b0dd"
+    },
+    {
+      "id": "75085094-b092-4c9a-95f8-0e85c7117cf5",
+      "text": "Przypisanie inwestycji do przedstawiciela",
+      "type": "istar.Task",
+      "x": 434,
+      "y": 418,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "7a15cd8c-74e2-4bdc-87ef-96861e69344e",
+      "target": "3b52afae-0be6-4219-b3e7-9179e69ba386"
+    },
+    {
+      "id": "a17134dd-1b3f-4d55-8743-aa0a54ad9452",
+      "text": "Wniosek o zaakceptowanie inwestycji",
+      "type": "istar.Task",
+      "x": 746,
+      "y": 250,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "1d74978f-a135-41fc-94bd-2a60731534a4",
+      "target": "285091be-ae82-432d-8dae-2b215c1e66da"
+    },
+    {
+      "id": "9496f389-34b6-499e-ad31-645368e818b4",
+      "text": "Wysłanie wstępnej oferty",
+      "type": "istar.Task",
+      "x": 800,
+      "y": 496,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "38092550-8374-4bcf-88ed-13d068a860f5",
+      "target": "72f71003-f161-456e-9b15-b46fe31d05c3"
+    }
+  ],
+  "links": [
+    {
+      "id": "b7f21ca3-5257-4a23-b1f8-543d7de5bf18",
+      "type": "istar.DependencyLink",
+      "source": "9496f389-34b6-499e-ad31-645368e818b4",
+      "target": "72f71003-f161-456e-9b15-b46fe31d05c3"
+    },
+    {
+      "id": "012f2d46-4559-4047-aa2d-ea66b2c74639",
+      "type": "istar.DependencyLink",
+      "source": "38092550-8374-4bcf-88ed-13d068a860f5",
+      "target": "9496f389-34b6-499e-ad31-645368e818b4"
+    },
+    {
+      "id": "a6292983-9100-47dc-9307-ce9ebabf3ba2",
+      "type": "istar.DependencyLink",
+      "source": "a17134dd-1b3f-4d55-8743-aa0a54ad9452",
+      "target": "285091be-ae82-432d-8dae-2b215c1e66da"
+    },
+    {
+      "id": "c3fcf7d8-fe25-4c30-8c75-16c1b296c8ce",
+      "type": "istar.DependencyLink",
+      "source": "1d74978f-a135-41fc-94bd-2a60731534a4",
+      "target": "a17134dd-1b3f-4d55-8743-aa0a54ad9452"
+    },
+    {
+      "id": "9955f4c9-c55e-45a0-aaba-464642760b15",
+      "type": "istar.DependencyLink",
+      "source": "75085094-b092-4c9a-95f8-0e85c7117cf5",
+      "target": "3b52afae-0be6-4219-b3e7-9179e69ba386"
+    },
+    {
+      "id": "0ec214d0-6d61-45c3-9aa6-6b87c8865a61",
+      "type": "istar.DependencyLink",
+      "source": "7a15cd8c-74e2-4bdc-87ef-96861e69344e",
+      "target": "75085094-b092-4c9a-95f8-0e85c7117cf5"
+    },
+    {
+      "id": "189f2143-057e-4d11-9a4d-2830ce5e2a7b",
+      "type": "istar.DependencyLink",
+      "source": "1b41a57b-44f4-4a6e-b91f-b0df190a88ba",
+      "target": "6ae4807b-1f54-4203-989d-7de7a884b0dd"
+    },
+    {
+      "id": "447cfd8c-caf8-4496-ab02-82a6d8dec942",
+      "type": "istar.DependencyLink",
+      "source": "b9fe45ff-44eb-452e-bc42-c4a1567a9ad0",
+      "target": "1b41a57b-44f4-4a6e-b91f-b0df190a88ba"
+    },
+    {
+      "id": "077266c1-8883-46f6-b374-2c2e264ac35b",
+      "type": "istar.DependencyLink",
+      "source": "f041aa9d-36d0-41bf-9a6e-15f19c66cb86",
+      "target": "743330db-f5e1-4f80-92f2-1c0e7e04f2b7"
+    },
+    {
+      "id": "e710c90c-c445-40da-864b-5bdd8e808cb9",
+      "type": "istar.DependencyLink",
+      "source": "d60c3956-d4d0-4439-8655-6af009bde912",
+      "target": "f041aa9d-36d0-41bf-9a6e-15f19c66cb86"
+    },
+    {
+      "id": "5ac42468-e88a-4f07-a937-e182af2914e6",
+      "type": "istar.DependencyLink",
+      "source": "b2500cb3-02d8-4be5-8395-52bfbf9e4eff",
+      "target": "0e9c09fb-1ba7-437a-9f9a-ed260d9fc7e7"
+    },
+    {
+      "id": "7ea398fb-8180-4f91-bfb6-83d2ccf3763c",
+      "type": "istar.DependencyLink",
+      "source": "a19e9e19-e349-4e2b-9336-ff77a3fead1a",
+      "target": "b2500cb3-02d8-4be5-8395-52bfbf9e4eff"
+    },
+    {
+      "id": "34a92eec-9741-4fdc-8063-b777a9ee16c4",
+      "type": "istar.OrRefinementLink",
+      "source": "0e9c09fb-1ba7-437a-9f9a-ed260d9fc7e7",
+      "target": "bb878671-c7f4-4eaa-9d31-c3cf49a32c60"
+    },
+    {
+      "id": "d683cfaa-2ae1-4d33-a36d-cba655b9cd74",
+      "type": "istar.NeededByLink",
+      "source": "8532c90b-d6e5-4ce4-85a9-ec5ea992ae34",
+      "target": "d60c3956-d4d0-4439-8655-6af009bde912"
+    },
+    {
+      "id": "71874d9c-7930-4d33-bb82-528bb0d15553",
+      "type": "istar.OrRefinementLink",
+      "source": "d60c3956-d4d0-4439-8655-6af009bde912",
+      "target": "2fe40145-99fc-4725-8ae7-f3e967ffe3d5"
+    },
+    {
+      "id": "336bcd4e-88e6-4bbc-b3f4-73fc1cf48a18",
+      "type": "istar.NeededByLink",
+      "source": "97793f6b-5988-4c58-9b6d-44c67eaefa55",
+      "target": "b9fe45ff-44eb-452e-bc42-c4a1567a9ad0"
+    },
+    {
+      "id": "b073464a-f708-420d-8cea-d1f1b8b6fcfc",
+      "type": "istar.OrRefinementLink",
+      "source": "b9fe45ff-44eb-452e-bc42-c4a1567a9ad0",
+      "target": "8da84630-bae7-4643-8dad-84bb427f386e"
+    },
+    {
+      "id": "8366aafa-cd54-4b66-b38d-5cbade3f8cbc",
+      "type": "istar.OrRefinementLink",
+      "source": "743330db-f5e1-4f80-92f2-1c0e7e04f2b7",
+      "target": "3b52afae-0be6-4219-b3e7-9179e69ba386"
+    },
+    {
+      "id": "29ea270d-c61a-42a0-91fa-0369a5eef460",
+      "type": "istar.OrRefinementLink",
+      "source": "a19e9e19-e349-4e2b-9336-ff77a3fead1a",
+      "target": "3b52afae-0be6-4219-b3e7-9179e69ba386"
+    },
+    {
+      "id": "45c1db19-761e-4f81-b955-37c31d6d9dc6",
+      "type": "istar.OrRefinementLink",
+      "source": "6ae4807b-1f54-4203-989d-7de7a884b0dd",
+      "target": "3b52afae-0be6-4219-b3e7-9179e69ba386"
+    },
+    {
+      "id": "efb1c228-f756-47a9-9e3f-a8b3f8455384",
+      "type": "istar.OrRefinementLink",
+      "source": "285091be-ae82-432d-8dae-2b215c1e66da",
+      "target": "476186e2-b123-4e7f-9366-ae359ecb6523"
+    },
+    {
+      "id": "46d44838-377d-4f73-a831-416146ea5ad1",
+      "type": "istar.OrRefinementLink",
+      "source": "7a15cd8c-74e2-4bdc-87ef-96861e69344e",
+      "target": "72f71003-f161-456e-9b15-b46fe31d05c3"
+    },
+    {
+      "id": "7dc9f5fd-ab1f-4967-adf1-5e4b45cda6f5",
+      "type": "istar.OrRefinementLink",
+      "source": "1d74978f-a135-41fc-94bd-2a60731534a4",
+      "target": "72f71003-f161-456e-9b15-b46fe31d05c3"
+    },
+    {
+      "id": "1a22fd81-2fca-49da-9bfb-4128b8d6ee5b",
+      "type": "istar.OrRefinementLink",
+      "source": "38092550-8374-4bcf-88ed-13d068a860f5",
+      "target": "66c3d794-7d1a-416d-94df-6f95dab3a9bd"
+    }
+  ],
+  "display": {
+    "d60c3956-d4d0-4439-8655-6af009bde912": {
+      "width": 106.34164428710938,
+      "height": 54.44166564941406
+    },
+    "2fe40145-99fc-4725-8ae7-f3e967ffe3d5": {
+      "width": 103.84164428710938,
+      "height": 40.44166564941406
+    },
+    "a19e9e19-e349-4e2b-9336-ff77a3fead1a": {
+      "width": 119.84164428710938,
+      "height": 60.44166564941406
+    },
+    "6ae4807b-1f54-4203-989d-7de7a884b0dd": {
+      "width": 117.84164428710938,
+      "height": 54.44166564941406
+    },
+    "743330db-f5e1-4f80-92f2-1c0e7e04f2b7": {
+      "width": 106.84164428710938,
+      "height": 48.44166564941406
+    },
+    "3b52afae-0be6-4219-b3e7-9179e69ba386": {
+      "width": 119.84164428710938,
+      "height": 50.94166564941406
+    },
+    "7a15cd8c-74e2-4bdc-87ef-96861e69344e": {
+      "width": 104.34164428710938,
+      "height": 50.44166564941406
+    },
+    "1d74978f-a135-41fc-94bd-2a60731534a4": {
+      "width": 134.84164428710938,
+      "height": 50.44166564941406
+    },
+    "72f71003-f161-456e-9b15-b46fe31d05c3": {
+      "width": 103.84164428710938,
+      "height": 43.94166564941406
+    },
+    "66c3d794-7d1a-416d-94df-6f95dab3a9bd": {
+      "width": 110.84164428710938,
+      "height": 42.94166564941406
+    },
+    "b9fe45ff-44eb-452e-bc42-c4a1567a9ad0": {
+      "width": 116.34164428710938,
+      "height": 54.44166564941406
+    },
+    "8da84630-bae7-4643-8dad-84bb427f386e": {
+      "width": 108.84164428710938,
+      "height": 48.94166564941406
+    },
+    "bb878671-c7f4-4eaa-9d31-c3cf49a32c60": {
+      "width": 106.84164428710938,
+      "height": 49.44166564941406
+    },
+    "0e9c09fb-1ba7-437a-9f9a-ed260d9fc7e7": {
+      "width": 107.84164428710938,
+      "height": 43.44166564941406
+    },
+    "b2500cb3-02d8-4be5-8395-52bfbf9e4eff": {
+      "width": 119.84164428710938,
+      "height": 52.44166564941406
+    },
+    "f041aa9d-36d0-41bf-9a6e-15f19c66cb86": {
+      "width": 101.84164428710938,
+      "height": 42.44166564941406
+    },
+    "1b41a57b-44f4-4a6e-b91f-b0df190a88ba": {
+      "width": 109.84164428710938,
+      "height": 40.44166564941406
+    },
+    "75085094-b092-4c9a-95f8-0e85c7117cf5": {
+      "width": 116.84164428710938,
+      "height": 51.44166564941406
+    },
+    "a17134dd-1b3f-4d55-8743-aa0a54ad9452": {
+      "width": 103.34164428710938,
+      "height": 40.44166564941406
+    },
+    "9496f389-34b6-499e-ad31-645368e818b4": {
+      "width": 111.34164428710938,
+      "height": 46.44166564941406
+    }
+  },
+  "tool": "pistar.2.1.0",
+  "istar": "2.0",
+  "saveDate": "Sun, 23 Nov 2025 21:07:59 GMT",
+  "diagram": {
+    "width": 1000,
+    "height": 700,
+    "customProperties": {
+      "Description": "",
+      "newProperty": ""
+    }
+  }
+}
