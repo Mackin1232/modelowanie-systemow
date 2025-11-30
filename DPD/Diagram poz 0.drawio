@@ -1,1 +1,205 @@
-
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3">
+  <diagram name="Strona-1" id="2YJOCzAO0BlKDImIs5kt">
+    <mxGraphModel dx="1774" dy="1002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="h2tj79xjMyDmjERd-n8z-1" value="1. Zarejestrowanie nowej inwestycji" style="html=1;dashed=0;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="380" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-2" value="2. Przypisanie inwestycji przedstawicielowi" style="html=1;dashed=0;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="210" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-3" value="3. Aktualizacja stanu inwestycji" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="430" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-4" value="4. Zarządzanie listą inwestycji" style="html=1;dashed=0;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="630" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-5" value="Administrator systemu" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.externalEntity" vertex="1" parent="1">
+          <mxGeometry x="20" y="860" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-6" value="C" style="autosize=1;part=1;resizable=0;strokeColor=inherit;fillColor=inherit;gradientColor=inherit;" vertex="1" parent="h2tj79xjMyDmjERd-n8z-5">
+          <mxGeometry width="30" height="30" relative="1" as="geometry">
+            <mxPoint x="10" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="h2tj79xjMyDmjERd-n8z-5" target="h2tj79xjMyDmjERd-n8z-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="640" as="sourcePoint" />
+            <mxPoint x="290" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-9" value="Żądanie usunięcia/edytowania listy" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h2tj79xjMyDmjERd-n8z-8">
+          <mxGeometry x="-0.0243" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-12" value="D1&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp;Krajowa lista inwestycji" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" vertex="1" parent="1">
+          <mxGeometry x="10" y="250" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.625;exitY=0.967;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="h2tj79xjMyDmjERd-n8z-12" target="h2tj79xjMyDmjERd-n8z-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="640" as="sourcePoint" />
+            <mxPoint x="290" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-14" value="Nowe inwestycje" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h2tj79xjMyDmjERd-n8z-13">
+          <mxGeometry x="0.142" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-15" value="D2&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp;Firmowa lista oddziałów" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" vertex="1" parent="1">
+          <mxGeometry x="220" y="120" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h2tj79xjMyDmjERd-n8z-15" target="h2tj79xjMyDmjERd-n8z-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="640" as="sourcePoint" />
+            <mxPoint x="290" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-17" value="Adresy oddziałów" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h2tj79xjMyDmjERd-n8z-16">
+          <mxGeometry x="-0.0556" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="h2tj79xjMyDmjERd-n8z-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="390" as="sourcePoint" />
+            <mxPoint x="290" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-19" value="ID Inwestycji" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h2tj79xjMyDmjERd-n8z-18">
+          <mxGeometry x="-0.0784" y="-2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-20" value="Przedstawiciel Handlowy" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.externalEntity" vertex="1" parent="1">
+          <mxGeometry x="580" y="260" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-21" value="A" style="autosize=1;part=1;resizable=0;strokeColor=inherit;fillColor=inherit;gradientColor=inherit;" vertex="1" parent="h2tj79xjMyDmjERd-n8z-20">
+          <mxGeometry width="30" height="30" relative="1" as="geometry">
+            <mxPoint x="10" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=37.5;entryPerimeter=0;" edge="1" parent="1" source="h2tj79xjMyDmjERd-n8z-2" target="h2tj79xjMyDmjERd-n8z-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="540" as="sourcePoint" />
+            <mxPoint x="620" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-23" value="Informacje o inwestycji" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=10;" vertex="1" connectable="0" parent="h2tj79xjMyDmjERd-n8z-22">
+          <mxGeometry x="-0.2762" relative="1" as="geometry">
+            <mxPoint x="13" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-24" value="5. Wyświetlenie statusu inwestycji" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="640" width="140" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-25" value="Dyrektor Regionalny" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.externalEntity" vertex="1" parent="1">
+          <mxGeometry x="407" y="890" width="166" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-26" value="B" style="autosize=1;part=1;resizable=0;strokeColor=inherit;fillColor=inherit;gradientColor=inherit;" vertex="1" parent="h2tj79xjMyDmjERd-n8z-25">
+          <mxGeometry width="30" height="30" relative="1" as="geometry">
+            <mxPoint x="10" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=78;exitDy=0;exitPerimeter=0;entryX=0.457;entryY=0.988;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="h2tj79xjMyDmjERd-n8z-25" target="h2tj79xjMyDmjERd-n8z-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="540" as="sourcePoint" />
+            <mxPoint x="620" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-28" value="ID inwestycji / przedstawiciela" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h2tj79xjMyDmjERd-n8z-27">
+          <mxGeometry x="0.2578" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.922;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.019;entryY=0.148;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="h2tj79xjMyDmjERd-n8z-2" target="h2tj79xjMyDmjERd-n8z-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="540" as="sourcePoint" />
+            <mxPoint x="620" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-30" value="Informacja o podpisaniu / niepodpisaniu umowy" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=30;" vertex="1" connectable="0" parent="h2tj79xjMyDmjERd-n8z-29">
+          <mxGeometry x="-0.2165" y="3" relative="1" as="geometry">
+            <mxPoint x="31" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=105;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h2tj79xjMyDmjERd-n8z-20" target="h2tj79xjMyDmjERd-n8z-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="540" as="sourcePoint" />
+            <mxPoint x="620" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="685" y="190" />
+              <mxPoint x="390" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-32" value="Odrzucenie inwestycji / wysłanie oferty klientowi" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h2tj79xjMyDmjERd-n8z-31">
+          <mxGeometry x="0.2831" y="-3" relative="1" as="geometry">
+            <mxPoint x="12" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-33" value="D3&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp;Firmowa lista inwestycji" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" vertex="1" parent="1">
+          <mxGeometry x="380" y="490" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="h2tj79xjMyDmjERd-n8z-1" target="h2tj79xjMyDmjERd-n8z-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="540" as="sourcePoint" />
+            <mxPoint x="620" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-35" value="Inwestycja" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=15;" vertex="1" connectable="0" parent="h2tj79xjMyDmjERd-n8z-34">
+          <mxGeometry x="-0.0654" y="2" relative="1" as="geometry">
+            <mxPoint y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.356;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="h2tj79xjMyDmjERd-n8z-2" target="h2tj79xjMyDmjERd-n8z-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="540" as="sourcePoint" />
+            <mxPoint x="620" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-37" value="Przypisany przedstawiciel" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=70;" vertex="1" connectable="0" parent="h2tj79xjMyDmjERd-n8z-36">
+          <mxGeometry x="-0.0686" y="1" relative="1" as="geometry">
+            <mxPoint x="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.019;exitY=0.614;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="h2tj79xjMyDmjERd-n8z-3" target="h2tj79xjMyDmjERd-n8z-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="540" as="sourcePoint" />
+            <mxPoint x="620" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-39" value="Zmiana statusu" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h2tj79xjMyDmjERd-n8z-38">
+          <mxGeometry x="0.1036" y="2" relative="1" as="geometry">
+            <mxPoint x="4" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-40" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="h2tj79xjMyDmjERd-n8z-4" target="h2tj79xjMyDmjERd-n8z-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="540" as="sourcePoint" />
+            <mxPoint x="620" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-41" value="Zaktualizowana lista" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h2tj79xjMyDmjERd-n8z-40">
+          <mxGeometry x="-0.0906" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.338;entryY=0.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="h2tj79xjMyDmjERd-n8z-33" target="h2tj79xjMyDmjERd-n8z-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="540" as="sourcePoint" />
+            <mxPoint x="620" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2tj79xjMyDmjERd-n8z-43" value="Status inwestycji" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h2tj79xjMyDmjERd-n8z-42">
+          <mxGeometry x="0.0431" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
