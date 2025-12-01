@@ -1,0 +1,159 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:143.0) Gecko/20100101 Firefox/143.0" version="29.2.1">
+  <diagram name="Strona-1" id="D8tpb2E6omerCPy3VB8j">
+    <mxGraphModel dx="1425" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TsWXzbRlXYJlYykjBCFx-62" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.333;entryY=0.031;entryDx=0;entryDy=0;entryPerimeter=0;" target="TsWXzbRlXYJlYykjBCFx-66" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="100" y="120" as="sourcePoint" />
+            <mxPoint x="230" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TsWXzbRlXYJlYykjBCFx-63" connectable="0" parent="TsWXzbRlXYJlYykjBCFx-62" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="ID inwestycji" vertex="1">
+          <mxGeometry relative="1" x="0.2538" y="-1" as="geometry">
+            <mxPoint x="-31" y="-39" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TsWXzbRlXYJlYykjBCFx-64" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.15;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="TsWXzbRlXYJlYykjBCFx-66" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="60" y="170" as="sourcePoint" />
+            <mxPoint x="140" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TsWXzbRlXYJlYykjBCFx-65" connectable="0" parent="TsWXzbRlXYJlYykjBCFx-64" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Informacja o podpisaniu umowy" vertex="1">
+          <mxGeometry relative="1" x="-0.0846" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TsWXzbRlXYJlYykjBCFx-66" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;3.1 Sprawdzenie statusu umowy&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="120" x="190" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="TsWXzbRlXYJlYykjBCFx-67" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" value="D3&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp;Firmowa lista inwestycji" vertex="1">
+          <mxGeometry height="50" width="180" x="610" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="TsWXzbRlXYJlYykjBCFx-68" edge="1" parent="1" source="TsWXzbRlXYJlYykjBCFx-70" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.38;entryDx=0;entryDy=0;entryPerimeter=0;" target="TsWXzbRlXYJlYykjBCFx-67" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="540" as="sourcePoint" />
+            <mxPoint x="440" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TsWXzbRlXYJlYykjBCFx-69" connectable="0" parent="TsWXzbRlXYJlYykjBCFx-68" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Informacja o statusie" vertex="1">
+          <mxGeometry relative="1" x="-0.6668" y="-2" as="geometry">
+            <mxPoint x="50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TsWXzbRlXYJlYykjBCFx-70" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;3.4 Zmiana statusu inwestycji&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="120" x="370" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="TsWXzbRlXYJlYykjBCFx-71" edge="1" parent="1" source="TsWXzbRlXYJlYykjBCFx-66" style="endArrow=classic;html=1;rounded=0;exitX=0.154;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="TsWXzbRlXYJlYykjBCFx-78" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="290" as="sourcePoint" />
+            <mxPoint x="290" y="413" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TsWXzbRlXYJlYykjBCFx-72" connectable="0" parent="TsWXzbRlXYJlYykjBCFx-71" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;Informacja o&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;niepodpisaniu umowy&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0846" y="5" as="geometry">
+            <mxPoint x="-10" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TsWXzbRlXYJlYykjBCFx-73" edge="1" parent="1" source="TsWXzbRlXYJlYykjBCFx-66" style="endArrow=classic;html=1;rounded=0;entryX=0.975;entryY=0.415;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" target="TsWXzbRlXYJlYykjBCFx-78" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="289.04" y="390" as="sourcePoint" />
+            <mxPoint x="150.00000000000003" y="546.02" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TsWXzbRlXYJlYykjBCFx-74" connectable="0" parent="TsWXzbRlXYJlYykjBCFx-73" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="ID inwestycji" vertex="1">
+          <mxGeometry relative="1" x="0.2538" y="-1" as="geometry">
+            <mxPoint x="10" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TsWXzbRlXYJlYykjBCFx-75" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="TsWXzbRlXYJlYykjBCFx-66" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="236.48" y="97.01" as="sourcePoint" />
+            <mxPoint x="283.52" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TsWXzbRlXYJlYykjBCFx-76" connectable="0" parent="TsWXzbRlXYJlYykjBCFx-75" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Informacje o&amp;nbsp;niepodpisaniu umowy" vertex="1">
+          <mxGeometry relative="1" x="0.1968" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TsWXzbRlXYJlYykjBCFx-77" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;3.2 Otrzymanie informacji o podpisaniu umowy&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="120" x="480" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="TsWXzbRlXYJlYykjBCFx-78" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;3.3 Sprawdzenie statusu umowy&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="120" x="20" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="TsWXzbRlXYJlYykjBCFx-80" edge="1" parent="1" source="TsWXzbRlXYJlYykjBCFx-66" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="TsWXzbRlXYJlYykjBCFx-77" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="398" y="430" as="sourcePoint" />
+            <mxPoint x="300" y="539" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TsWXzbRlXYJlYykjBCFx-81" connectable="0" parent="TsWXzbRlXYJlYykjBCFx-80" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;Informacja o&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;podpisaniu umowy&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0846" y="5" as="geometry">
+            <mxPoint x="-10" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TsWXzbRlXYJlYykjBCFx-82" edge="1" parent="1" source="TsWXzbRlXYJlYykjBCFx-66" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="TsWXzbRlXYJlYykjBCFx-77" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="463" y="470" as="sourcePoint" />
+            <mxPoint x="320" y="634" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TsWXzbRlXYJlYykjBCFx-83" connectable="0" parent="TsWXzbRlXYJlYykjBCFx-82" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="ID inwestycji" vertex="1">
+          <mxGeometry relative="1" x="0.2538" y="-1" as="geometry">
+            <mxPoint x="-27" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TsWXzbRlXYJlYykjBCFx-84" edge="1" parent="1" source="TsWXzbRlXYJlYykjBCFx-77" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.142;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="TsWXzbRlXYJlYykjBCFx-70" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="450" y="440" as="sourcePoint" />
+            <mxPoint x="620" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TsWXzbRlXYJlYykjBCFx-85" connectable="0" parent="TsWXzbRlXYJlYykjBCFx-84" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="ID inwestycji" vertex="1">
+          <mxGeometry relative="1" x="0.2538" y="-1" as="geometry">
+            <mxPoint x="-27" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TsWXzbRlXYJlYykjBCFx-86" edge="1" parent="1" source="TsWXzbRlXYJlYykjBCFx-77" style="endArrow=classic;html=1;rounded=0;exitX=0.7;exitY=0.992;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" target="TsWXzbRlXYJlYykjBCFx-70" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="550" y="460" as="sourcePoint" />
+            <mxPoint x="720" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TsWXzbRlXYJlYykjBCFx-87" connectable="0" parent="TsWXzbRlXYJlYykjBCFx-86" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;Informacja o&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;podpisaniu umowy&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0846" y="5" as="geometry">
+            <mxPoint x="-10" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TsWXzbRlXYJlYykjBCFx-88" edge="1" parent="1" source="TsWXzbRlXYJlYykjBCFx-78" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1.008;exitY=0.623;exitDx=0;exitDy=0;exitPerimeter=0;" target="TsWXzbRlXYJlYykjBCFx-70" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="547" y="540" as="sourcePoint" />
+            <mxPoint x="450" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TsWXzbRlXYJlYykjBCFx-89" connectable="0" parent="TsWXzbRlXYJlYykjBCFx-88" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="ID inwestycji" vertex="1">
+          <mxGeometry relative="1" x="0.2538" y="-1" as="geometry">
+            <mxPoint x="-27" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TsWXzbRlXYJlYykjBCFx-90" edge="1" parent="1" source="TsWXzbRlXYJlYykjBCFx-78" style="endArrow=classic;html=1;rounded=0;exitX=0.975;exitY=0.946;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="TsWXzbRlXYJlYykjBCFx-70" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="299" y="620" as="sourcePoint" />
+            <mxPoint x="201" y="729" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TsWXzbRlXYJlYykjBCFx-91" connectable="0" parent="TsWXzbRlXYJlYykjBCFx-90" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;Informacja o&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;niepodpisaniu umowy&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0846" y="5" as="geometry">
+            <mxPoint x="-10" y="6" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
