@@ -13,4 +13,5 @@ Diagramy DPD robiłem w draw.io, polecam tam kliknąć "Więcej kształtów" -> 
 - VP: diagram wymagań - dodać zdjęcie typowego raportu, może interfejsu w Sharepoint?
 
 Do dopytania na zajęciach: czy trzeba zrobić diagram generowania wartości (e3 Value), Textual Analysis; ile diagramów sekwencji, aktywności, czynności; w jakim formacie trzeba oddać projekt?
+
 P.S.: Na komputerach uczelnianych jest stara wersja VP i nie da się tak normalnie otworzyć naszego projektu - podobno działa jeśli się wyeksportuje jako XML
