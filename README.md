@@ -15,3 +15,5 @@ Diagramy DPD robiłem w draw.io, polecam tam kliknąć "Więcej kształtów" -> 
 Do dopytania na zajęciach: czy trzeba zrobić diagram generowania wartości (e3 Value), Textual Analysis; ile diagramów sekwencji, aktywności, czynności; w jakim formacie trzeba oddać projekt?
 
 P.S.: Na komputerach uczelnianych jest stara wersja VP i nie da się tak normalnie otworzyć naszego projektu - podobno działa jeśli się wyeksportuje jako XML
+
+[22.01.2026 -- Kuba] Do diagramu 1 poziomu 1 dodałem LLM by utrzymać spójność z wymaganiami i diagramem sekwencji
