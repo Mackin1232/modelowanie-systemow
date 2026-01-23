@@ -125,7 +125,7 @@
     <bpmn:sequenceFlow id="Flow_0wi2b4m" name="NIE" sourceRef="Gateway_145kug8" targetRef="Event_1cinyp4" />
     <bpmn:sequenceFlow id="Flow_0oyxko2" sourceRef="StartEvent_1" targetRef="Activity_0yhlz8c" />
     <bpmn:sequenceFlow id="Flow_1iy8sv8" sourceRef="Activity_0yhlz8c" targetRef="Gateway_145kug8" />
-    <bpmn:sequenceFlow id="Flow_1og5fv5" sourceRef="Gateway_145kug8" targetRef="Activity_00vaoqq" />
+    <bpmn:sequenceFlow id="Flow_1og5fv5" name="TAK" sourceRef="Gateway_145kug8" targetRef="Activity_00vaoqq" />
     <bpmn:sequenceFlow id="Flow_0j6w1zt" sourceRef="Activity_00vaoqq" targetRef="Activity_0ob6k5m" />
     <bpmn:sequenceFlow id="Flow_16wzyfx" sourceRef="Activity_0ob6k5m" targetRef="Event_1owl37p" />
   </bpmn:process>
@@ -194,6 +194,9 @@
       <bpmndi:BPMNEdge id="Flow_1og5fv5_di" bpmnElement="Flow_1og5fv5">
         <di:waypoint x="545" y="270" />
         <di:waypoint x="630" y="270" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="549" y="248" width="21" height="14" />
+        </bpmndi:BPMNLabel>
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_0j6w1zt_di" bpmnElement="Flow_0j6w1zt">
         <di:waypoint x="730" y="270" />
