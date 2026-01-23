@@ -1,4 +1,4 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0" pages="7">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0" pages="8">
   <diagram name="Diagram kontekstowy" id="ksSxGAIA-C1cK6GKnruv">
     <mxGraphModel dx="874" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -168,7 +168,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JaQYUiszy3_MPHglC-o2-9" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" value="D1&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp;Krajowa lista inwestycji" vertex="1">
-          <mxGeometry height="40" width="160" x="19" y="160" as="geometry" />
+          <mxGeometry height="40" width="160" x="9" y="210" as="geometry" />
         </mxCell>
         <mxCell id="JaQYUiszy3_MPHglC-o2-10" edge="1" parent="1" source="JaQYUiszy3_MPHglC-o2-9" style="endArrow=classic;html=1;rounded=0;exitX=0.625;exitY=0.967;exitDx=0;exitDy=0;exitPerimeter=0;" target="JaQYUiszy3_MPHglC-o2-1" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -178,7 +178,7 @@
         </mxCell>
         <mxCell id="JaQYUiszy3_MPHglC-o2-11" connectable="0" parent="JaQYUiszy3_MPHglC-o2-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Informacje o nowych inwestycjach" vertex="1">
           <mxGeometry relative="1" x="0.142" y="-1" as="geometry">
-            <mxPoint y="-1" as="offset" />
+            <mxPoint x="-24" y="-16" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JaQYUiszy3_MPHglC-o2-12" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" value="D2&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp;Firmowa lista oddziałów" vertex="1">
@@ -452,7 +452,7 @@
         <mxCell id="OmNliXgTglOZ31R8M7vV-34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="1.2 Dodanie nowych inwestycji do firmowej listy" vertex="1">
           <mxGeometry height="130" width="120" x="294" y="1520" as="geometry" />
         </mxCell>
-        <mxCell id="OmNliXgTglOZ31R8M7vV-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="1.3 Sporządzenie raportu o inwestycji" vertex="1">
+        <mxCell id="OmNliXgTglOZ31R8M7vV-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="1.3 Wysłanie żądania sporządzenia raportu o inwestycji" vertex="1">
           <mxGeometry height="130" width="120" x="430" y="1730" as="geometry" />
         </mxCell>
         <mxCell id="OmNliXgTglOZ31R8M7vV-38" edge="1" parent="1" source="OmNliXgTglOZ31R8M7vV-30" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="OmNliXgTglOZ31R8M7vV-34" value="">
@@ -722,8 +722,180 @@
         <mxCell id="9ta5pV8ICHidUg6cLu_9-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Diagram poziom 1 - Przypisanie inwestycji przedstawicielowi" vertex="1">
           <mxGeometry height="30" width="350" x="20" y="10" as="geometry" />
         </mxCell>
-        <mxCell id="rmvsIJ7kc_PSu5q-hOF4-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Do zastanowienia się - Czy warto tu dodać API Google Maps?" vertex="1">
-          <mxGeometry height="30" width="350" x="30" y="40" as="geometry" />
+        <mxCell id="dIPzVgtUGCvMhYKX1jFz-1" edge="1" parent="1" source="PkXn8RaBiKLzIJMh09Sm-4" style="endArrow=classic;html=1;rounded=0;exitX=0.712;exitY=0.867;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.579;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;" target="PkXn8RaBiKLzIJMh09Sm-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dIPzVgtUGCvMhYKX1jFz-2" connectable="0" parent="dIPzVgtUGCvMhYKX1jFz-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="ID Przedstawiciela" vertex="1">
+          <mxGeometry relative="1" x="-0.0229" y="-2" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zh1DZVhdgoogwgr-CXaA" name="Diagram poz. 2. od 2.1">
+    <mxGraphModel dx="874" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-X7NLA06g7AdWb78lgZq-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Diagram poziom 2: 2.1 -&amp;nbsp; Znalezienie najbliższego oddziału" vertex="1">
+          <mxGeometry height="30" width="350" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mIpS6rN0UgVHdKcDGtnw-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="2.1.1. Pobranie adresu budowy" vertex="1">
+          <mxGeometry height="100" width="170" x="180" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="mIpS6rN0UgVHdKcDGtnw-2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.044;entryY=0.045;entryDx=0;entryDy=0;entryPerimeter=0;" target="mIpS6rN0UgVHdKcDGtnw-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="40" y="110" as="sourcePoint" />
+            <mxPoint x="430" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mIpS6rN0UgVHdKcDGtnw-5" connectable="0" parent="mIpS6rN0UgVHdKcDGtnw-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="ID Inwestycji" vertex="1">
+          <mxGeometry relative="1" x="0.1944" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mIpS6rN0UgVHdKcDGtnw-3" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" value="D6&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp;API Google Maps" vertex="1">
+          <mxGeometry height="30" width="150" x="140" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="mIpS6rN0UgVHdKcDGtnw-4" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" value="D3&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp;Firmowa lista inwestycji" vertex="1">
+          <mxGeometry height="30" width="180" x="380" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mIpS6rN0UgVHdKcDGtnw-6" edge="1" parent="1" source="mIpS6rN0UgVHdKcDGtnw-1" style="endArrow=classic;html=1;rounded=0;entryX=0.6;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="mIpS6rN0UgVHdKcDGtnw-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="350" as="sourcePoint" />
+            <mxPoint x="430" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mIpS6rN0UgVHdKcDGtnw-8" connectable="0" parent="mIpS6rN0UgVHdKcDGtnw-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="ID Inwestycji" vertex="1">
+          <mxGeometry relative="1" x="-0.0615" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mIpS6rN0UgVHdKcDGtnw-7" edge="1" parent="1" source="mIpS6rN0UgVHdKcDGtnw-4" style="endArrow=classic;html=1;rounded=0;exitX=0.181;exitY=1.05;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.676;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="mIpS6rN0UgVHdKcDGtnw-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="350" as="sourcePoint" />
+            <mxPoint x="430" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mIpS6rN0UgVHdKcDGtnw-9" connectable="0" parent="mIpS6rN0UgVHdKcDGtnw-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Adres budowy" vertex="1">
+          <mxGeometry relative="1" x="-0.0821" y="2" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mIpS6rN0UgVHdKcDGtnw-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="2.1.2. Pobranie adresów oddziałów" vertex="1">
+          <mxGeometry height="60" width="120" x="390" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="WCvFkvozL8PqmEW7PIZ7-1" parent="1" style="html=1;dashed=0;whiteSpace=wrap;shape=mxgraph.dfd.dataStoreID;align=left;spacingLeft=3;points=[[0,0],[0.5,0],[1,0],[0,0.5],[1,0.5],[0,1],[0.5,1],[1,1]];" value="D2&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp;Firmowa lista oddziałów" vertex="1">
+          <mxGeometry height="30" width="170" x="560" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="WCvFkvozL8PqmEW7PIZ7-2" edge="1" parent="1" source="WCvFkvozL8PqmEW7PIZ7-1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.946;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="mIpS6rN0UgVHdKcDGtnw-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="350" as="sourcePoint" />
+            <mxPoint x="430" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCvFkvozL8PqmEW7PIZ7-5" connectable="0" parent="WCvFkvozL8PqmEW7PIZ7-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Adresy oddziałów" vertex="1">
+          <mxGeometry relative="1" x="-0.1942" y="1" as="geometry">
+            <mxPoint x="-8" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCvFkvozL8PqmEW7PIZ7-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.385;entryY=0.883;entryDx=0;entryDy=0;entryPerimeter=0;" target="WCvFkvozL8PqmEW7PIZ7-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="510" y="350" as="sourcePoint" />
+            <mxPoint x="560" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCvFkvozL8PqmEW7PIZ7-4" connectable="0" parent="WCvFkvozL8PqmEW7PIZ7-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Żadanie pobrania wszystkich adresów" vertex="1">
+          <mxGeometry relative="1" x="0.1969" y="-4" as="geometry">
+            <mxPoint x="89" y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCvFkvozL8PqmEW7PIZ7-6" edge="1" parent="1" source="mIpS6rN0UgVHdKcDGtnw-1" style="endArrow=classic;html=1;rounded=0;exitX=0.95;exitY=0.955;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="mIpS6rN0UgVHdKcDGtnw-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="350" as="sourcePoint" />
+            <mxPoint x="430" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCvFkvozL8PqmEW7PIZ7-7" connectable="0" parent="WCvFkvozL8PqmEW7PIZ7-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Adres budowy" vertex="1">
+          <mxGeometry relative="1" x="-0.2658" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WCvFkvozL8PqmEW7PIZ7-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="2.1.3. Obliczenie czasów podróży" vertex="1">
+          <mxGeometry height="60" width="120" x="390" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="WCvFkvozL8PqmEW7PIZ7-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="2.1.4. Wybór oddziału z najkrótszym czasem" vertex="1">
+          <mxGeometry height="60" width="140" x="600" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="7HG4c4W48wDSFumrk1px-1" edge="1" parent="1" source="WCvFkvozL8PqmEW7PIZ7-9" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="350" as="sourcePoint" />
+            <mxPoint x="802" y="662" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HG4c4W48wDSFumrk1px-2" connectable="0" parent="7HG4c4W48wDSFumrk1px-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Dane o&lt;div&gt;najbliższym oddziale&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.4516" y="6" as="geometry">
+            <mxPoint x="-29" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HG4c4W48wDSFumrk1px-3" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.425;exitY=0.925;exitDx=0;exitDy=0;exitPerimeter=0;" target="WCvFkvozL8PqmEW7PIZ7-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="480" y="390" as="sourcePoint" />
+            <mxPoint x="480.96000000000004" y="454.98" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HG4c4W48wDSFumrk1px-5" connectable="0" parent="7HG4c4W48wDSFumrk1px-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Adresy oddziałów" vertex="1">
+          <mxGeometry relative="1" x="-0.0222" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HG4c4W48wDSFumrk1px-4" edge="1" parent="1" source="mIpS6rN0UgVHdKcDGtnw-10" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="WCvFkvozL8PqmEW7PIZ7-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="360" as="sourcePoint" />
+            <mxPoint x="460" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HG4c4W48wDSFumrk1px-6" connectable="0" parent="7HG4c4W48wDSFumrk1px-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Adres budowy" vertex="1">
+          <mxGeometry relative="1" x="-0.3556" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HG4c4W48wDSFumrk1px-7" edge="1" parent="1" source="WCvFkvozL8PqmEW7PIZ7-8" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" target="mIpS6rN0UgVHdKcDGtnw-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="360" as="sourcePoint" />
+            <mxPoint x="460" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HG4c4W48wDSFumrk1px-8" connectable="0" parent="7HG4c4W48wDSFumrk1px-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Adresy" vertex="1">
+          <mxGeometry relative="1" x="-0.0206" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HG4c4W48wDSFumrk1px-9" edge="1" parent="1" source="mIpS6rN0UgVHdKcDGtnw-3" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="WCvFkvozL8PqmEW7PIZ7-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="360" as="sourcePoint" />
+            <mxPoint x="460" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HG4c4W48wDSFumrk1px-11" connectable="0" parent="7HG4c4W48wDSFumrk1px-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Czasy&lt;div&gt;podróży&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2841" y="-1" as="geometry">
+            <mxPoint x="22" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HG4c4W48wDSFumrk1px-12" edge="1" parent="1" source="WCvFkvozL8PqmEW7PIZ7-8" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.996;exitY=0.625;exitDx=0;exitDy=0;exitPerimeter=0;" target="WCvFkvozL8PqmEW7PIZ7-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="360" as="sourcePoint" />
+            <mxPoint x="460" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7HG4c4W48wDSFumrk1px-13" connectable="0" parent="7HG4c4W48wDSFumrk1px-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Czasy podróży&lt;div&gt;z oddziałów do budowy&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3084" y="1" as="geometry">
+            <mxPoint x="-11" y="40" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
