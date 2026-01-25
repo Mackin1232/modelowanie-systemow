@@ -18,4 +18,4 @@ P.S.: Na komputerach uczelnianych jest stara wersja VP i nie da się tak normaln
 
 [22.01.2026 -- Kuba] Do diagramu 1 poziomu 1 dodałem LLM by utrzymać spójność z wymaganiami i diagramem sekwencji
 
-[25.01.2026 -- Maciek] Dodałem diag. maszyny stanowej i poprawiłem pozostałe - teraz tylko zostaje diagram aktywności i textual analysis (mogę w tym pomóc - daj znać)
+[25.01.2026 -- Maciek] Dodałem diag. maszyny stanowej i poprawiłem pozostałe - teraz tylko zostaje diagram aktywności (chyba? teraz nie wiem) i textual analysis (mogę w tym pomóc - daj znać)
