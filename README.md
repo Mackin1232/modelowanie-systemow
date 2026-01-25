@@ -5,7 +5,7 @@ Do bpmn użyłem narazie bpmn.io
 
 Diagramy DPD robiłem w draw.io, polecam tam kliknąć "Więcej kształtów" -> "Data Flow Diagram" 
 
-[19.01.2025 -- Maciek] Tutaj są takie moje notatki, co według mnie jeszcze trzeba poprawić (dogadamy się jak to podzielić):
+[19.01.2026 -- Maciek] Tutaj są takie moje notatki, co według mnie jeszcze trzeba poprawić (dogadamy się jak to podzielić):
 - ~~opis firmy: dopisać interesariuszy i ich zadania, wykorzystywane dane, jakoś ładnie sformatować, zaktualizować opis systemu, żeby uwzględniał m.in. rolę admina, możliwość monitorowania przez dyrektora, usunąć rzeczy których nie ma na diagramach (np. sprawdzanie, czy wykonawca wcześniej współpracował z firmą)~~
 - ~~wykres w Archimate: połączyć te warstwy biznesowe, rozbudować tą żółtą warstwę (np. o możliwość monitorowania przez dyrektora), wskazać jaki komponent (niebieski) wykonuje jaki proces (żółty), połączyć aktorów z interfejsem aplikacji(?), dopisać zmianę statusu umowy~~
 - ~~BPMN: sprawdzić błędy w Camunda Modelerze (można też w przeglądarce - modeler.camunda.io), każdy "pool" powinien mieć zakończenie, z procesu "Szukanie nowych inwestycji" wyciągnąć podproces "na główny plan" i zrobić osobne tory dla modelu LLM i API Google Maps, usunąć 2 początki~~
@@ -17,3 +17,5 @@ Diagramy DPD robiłem w draw.io, polecam tam kliknąć "Więcej kształtów" -> 
 P.S.: Na komputerach uczelnianych jest stara wersja VP i nie da się tak normalnie otworzyć naszego projektu - podobno działa jeśli się wyeksportuje jako XML
 
 [22.01.2026 -- Kuba] Do diagramu 1 poziomu 1 dodałem LLM by utrzymać spójność z wymaganiami i diagramem sekwencji
+
+[25.01.2026 -- Maciek] Dodałem diag. maszyny stanowej i poprawiłem pozostałe - teraz tylko zostaje diagram aktywności i textual analysis (mogę w tym pomóc - daj znać)
